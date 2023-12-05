@@ -1,5 +1,8 @@
-netneurotools: Tools for network neuroscience
-=============================================
+netneurotools_scipyfix: Tools for network neuroscience
+======================================================
+
+*This fork fixes the issues with compatibility that the ``pip`` version causes with
+new versions of ``scipy``*
 
 This toolbox is a collection of functions written in Python that get frequent
 usage in the `Network Neuroscience Lab <netneurolab.github.io/>`_, housed in
@@ -20,12 +23,10 @@ the `Brain Imaging Centre <https://www.mcgill.ca/bic/home>`_ at
 Installation
 ------------
 
-Install directly from PyPi with :code:`pip install netneurotools` or install the main branch with
-
 .. code-block:: bash
 
-    git clone https://github.com/netneurolab/netneurotools.git
-    cd netneurotools
+    git clone https://github.com/nikitas-k/netneurotools_scipyfix.git
+    cd netneurotools_scipyfix
     pip install .
 
 .. _features:
